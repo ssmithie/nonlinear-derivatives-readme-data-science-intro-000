@@ -43,7 +43,7 @@ def derivative_trace(list_of_terms, x_value, line_length = 4, delta = .01):
     trace = {'x': [x_minus, x_value, x_plus],
     'y': [y_minus, y, y_plus],
     'text': ['', "f' = " +  str(derivative_at), ''],
-    'mode': 'text+lines', 'textposition': 'bottom'}
+    'mode': 'text+lines', 'textposition': 'bottom center'}
     return trace
 
 def delta_traces(list_of_terms, x_value, line_length = 4, delta_x = .01):
